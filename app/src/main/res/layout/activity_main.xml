@@ -21,6 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
+        android:background=""
         android:drawableRight="@drawable/ic_account_circle_black_24dp"
 
         android:drawablePadding="10dp"
@@ -87,8 +88,8 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:hint="Male"
-                android:textColorHint="#ffffff"
-                android:buttonTint="#ffffff"/>
+                android:textColorHint="#FFFFFF"
+                android:buttonTint="#FFFFFFF"/>
 
             <RadioButton
                 android:id="@+id/radioButton"
@@ -96,8 +97,8 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:hint="Female"
-                android:textColorHint="#ffffff"
-                android:buttonTint="#ffffff"
+                android:textColorHint="#FFFFFF"
+                android:buttonTint="#FFFFFFF"
 
             android:layout_weight="0.75" />
 
@@ -139,15 +140,14 @@
             android:textColor="#FFFFFF"
             />
 
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-        </LinearLayout>
-
-
     </LinearLayout>
+    <Button
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:text="CANCEL"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        />
 
 
 </LinearLayout>
